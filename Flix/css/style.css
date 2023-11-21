@@ -1,0 +1,16 @@
+body {
+    background-color: linear-gradient(to top, #232526, #414345);
+}
+
+
+h1 {
+    color: #fc7703;
+}
+
+.navbar-brand {
+    color: #fc7703;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>   
+        </nav>
+    </header>
+    <main>
+        <div class="containner">
+            <div class="conteudo-principal">
+                <h1>Contagem:</h1>
+                <label for="numero">Insira um numero:</label>
+                <input type="numero" id="numero" name="numero">
+                <button class="botao" type="button" onclick="adicionarNumero()">Acrescentar</button>
+            <div class="lista">
+                <p>Resumo:</p>
+                <ul>
+                    <li>Quantidade de Inteiros: <span id="qtdInt">0</span></li>
+                    <li>Quantidade de Decimais: <span id="qtdFloats">0</span></li>
+                </ul>
+            </div>      
+        </div>
+
+
+        </div>
+
+        <script src="/algoritmos-js/contagem.js"></script>
+    </main>
+ 
+    
+</body>
+</html>

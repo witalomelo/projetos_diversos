@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDC</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>   
+        </nav>
+    </header>
+    <main>
+        <div class="containner">
+            <div class="conteudo-principal">
+                <h1>MDC</h1>
+                <label for="numeroA">Número A:</label>
+                <input type="number" id="numeroA" name="numeroA"><br>
+    
+                <label for="numeroB">Número B:</label>
+                <input type="number" id="numeroB" name="numeroB"><br>
+    
+                <button class="botao" type="button" onclick="encontrarMDC()">Encontrar MDC</button>
+                <br>
+                <p>O MDC é: <span id="resultado"></span></p>
+            </div>
+        </div>
+        <script src="/algoritmos-js/mdc.js"></script>
+    </main>  
+</body>
+</html>

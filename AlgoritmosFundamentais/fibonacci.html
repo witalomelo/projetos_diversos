@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>   
+        </nav>
+    </header>
+    <main>
+        <div class="containner">
+            <div class="conteudo-principal">
+                <h1>Fibonacci:</h1>
+                <input id="valor" type="number" value="0" minlength="1" placeholder="Which fibonacci number?" required>
+                <button class="botao" id="gerar" type="button" name="button">Enter</button>
+                <div class="resultados">
+                    <p id="resultado_numero"></p>
+                    <p id="resultado_array"></p>
+                    <p id="resultado_mensage"></p>
+                </div>               
+            </div>          
+        </div>
+        <script src="/algoritmos-js/fibonacci.js"></script>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.imagens_home img {
+    width: 30px; /* Aumenta o tamanho dos ícones */
+}
